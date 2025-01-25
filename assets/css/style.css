@@ -90,4 +90,6 @@ main code {
 
 /* Lists */
 ul, ol {
-    marg
+    margin: 1em 0;
+    padding-left: 2em;
+}
