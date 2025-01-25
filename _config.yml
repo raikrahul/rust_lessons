@@ -1,9 +1,41 @@
-theme: jekyll-theme-minimal
+# Site settings
 title: Rust Lessons
-description: A text-based tutorial series on the Rust programming language.
-markdown: kramdown
-plugins:
-  - jekyll-feed  <-- Added for RSS feed support
+description: Learn the Rust programming language with clear, text-based tutorials and examples.
+baseurl: "" # Update if the site is hosted in a subdirectory
+url: "https://yourusername.github.io" # Replace with your actual GitHub Pages URL
+author: Rahul
 
-# Optional: Specify custom CSS file
-css: "assets/css/style.css"
+# Theme and markdown settings
+theme: jekyll-theme-minimal
+markdown: kramdown
+
+# Plugins
+plugins:
+  - jekyll-feed         # RSS feed support
+  - jekyll-sitemap      # Generates a sitemap.xml for better SEO
+  - jekyll-seo-tag      # Adds metadata for improved SEO
+  - jekyll-paginate     # Enables pagination for blog posts
+  - jekyll-assets       # Improves asset management
+  - jekyll-compose      # Streamlines post creation (optional)
+
+# Pagination settings
+paginate: 5 # Number of posts per page
+
+# Exclude unnecessary files from the build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Custom styling
+sass:
+  style: compressed
+
+# Social media and SEO metadata
+social:
+  twitter: your_twitter_handle
+  github: your_github_username
+
+# Analytics (Optional: Replace with your own tracking ID)
+google_analytics: UA-XXXXXXXXX-X
