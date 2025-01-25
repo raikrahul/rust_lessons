@@ -6,7 +6,10 @@ title: Welcome to Rust Lessons
 # Rust Lessons
 Welcome to **Rust Lessons**, your ultimate resource for learning the Rust programming language.
 
-This website provides a comprehensive, text-based tutorial series for learners of all levels.
+## Latest Lessons
+{% for post in site.posts %}
+- [{{ post.title }}]({{ post.url | relative_url }})
+{% endfor %}
 
 ## What You'll Learn
 - Rust fundamentals
