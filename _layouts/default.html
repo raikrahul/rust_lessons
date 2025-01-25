@@ -1,11 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A text-based tutorial series on the Rust programming language.">
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   </head>
   <body>
-    {{ content }}
+    <header>
+      <h1>Rust Lessons</h1>
+      <p>Your ultimate resource for learning the Rust programming language.</p>
+    </header>
+
+    <nav>
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/about' | relative_url }}">About</a>
+      <a href="{{ '/contact' | relative_url }}">Contact</a>
+    </nav>
+
+    <main>
+      {{ content }}
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Rahul. All rights reserved. Built with Jekyll and GitHub Pages.</p>
+    </footer>
   </body>
 </html>
