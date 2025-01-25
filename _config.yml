@@ -3,7 +3,7 @@ title: Rust Lessons
 description: A text-based tutorial series on the Rust programming language.
 markdown: kramdown
 plugins:
-  - jekyll-feed
+  - jekyll-feed  <-- Added for RSS feed support
 
 # Optional: Specify custom CSS file
 css: "assets/css/style.css"

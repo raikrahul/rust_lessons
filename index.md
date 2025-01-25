@@ -8,7 +8,7 @@ Welcome to **Rust Lessons**, your ultimate resource for learning the Rust progra
 
 ## Latest Lessons
 {% for post in site.posts %}
-- [{{ post.title }}]({{ post.permalink | relative_url }})  <-- Updated this line
+- [{{ post.title }}]({{ post.permalink | relative_url }})  <-- Updated to use permalink
 {% endfor %}
 
 ## What You'll Learn
