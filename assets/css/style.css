@@ -93,3 +93,16 @@ ul, ol {
     margin: 1em 0;
     padding-left: 2em;
 }
+
+
+/* Add this to your CSS file */
+.highlight { background-color: #f8f8f8; }
+.highlight .c { color: #408080; font-style: italic } /* Comment */
+.highlight .k { color: #008000; font-weight: bold } /* Keyword */
+.highlight .n { color: #000000 } /* Name */
+.highlight .nf { color: #0000FF } /* Name.Function */
+.highlight .s { color: #BA2121 } /* Literal.String */
+.highlight .mi { color: #666666 } /* Literal.Number.Integer */
+.highlight .p { color: #000000 } /* Punctuation */
+.highlight .o { color: #666666 } /* Operator */
+.highlight .cp { color: #BC7A00 } /* Comment.Preproc */
