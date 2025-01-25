@@ -12,3 +12,16 @@ Cargo.lock
 
 # MSVC Windows builds of rustc generate these, which store debugging information
 *.pdb
+
+
+# Jekyll build directories
+_site/
+.sass-cache/
+.jekyll-cache/
+
+# VS Code settings
+.vscode/
+
+# IDE files
+.idea/
+*.swp

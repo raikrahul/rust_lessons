@@ -5,6 +5,9 @@ body {
     margin: 0;
     padding: 20px;
 }
+
 h1 {
     color: #0066cc;
 }
+
+/* You can add custom CSS here to override the theme's styles */

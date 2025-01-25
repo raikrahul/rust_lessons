@@ -1,3 +1,7 @@
 theme: jekyll-theme-minimal
 title: Rust Lessons
 description: A text-based tutorial series on the Rust programming language.
+markdown: kramdown
+
+# Optional: Specify custom CSS file
+css: "assets/css/style.css"
