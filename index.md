@@ -5,16 +5,11 @@ title: Welcome to Rust Lessons
 
 # Welcome to Rust Lessons
 
-Welcome to **Rust Lessons**, your ultimate resource for learning the Rust programming language. Dive into our tutorials and learn everything from the basics to advanced concepts with hands-on examples.
-
----
-
 ## 🚀 Latest Lessons
-Stay updated with our most recent tutorials:
-
 {% for post in site.posts %}
-- [{{ post.title }}]({{ post.permalink | relative_url }}) - *{{ post.date | date: "%B %d, %Y" }}*
+- [{{ post.title }}]({{ post.url | relative_url }}) - *{{ post.date | date: "%B %d, %Y" }}* <!-- Changed permalink → url -->
 {% endfor %}
+
 
 ---
 
