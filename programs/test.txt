@@ -1,6 +1,0 @@
-Hello, this is a test file!
-It contains multiple lines
-to test our file copying program.
-
-Feel free to copy me to another location.
-1234567890
