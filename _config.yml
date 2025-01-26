@@ -1,7 +1,7 @@
 # Site settings
 title: Rust Lessons
 description: Learn the Rust programming language with clear, text-based tutorials and examples.
-baseurl: "/rust_lessons" # ← Changed from "" to match repo name
+baseurl: "/rust_lessons" 
 url: "https://raikrahul.github.io" # Keep this
 author: Rahul
 
@@ -48,8 +48,8 @@ sass:
 
 # Social media and SEO metadata
 social:
-  twitter: your_twitter_handle
-  github: your_github_username
+  twitter: msft_rahul
+  github: raikrahul
 
 # Analytics (Optional: Replace with your own tracking ID)
 google_analytics: UA-XXXXXXXXX-X
