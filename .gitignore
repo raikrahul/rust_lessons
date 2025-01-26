@@ -3,26 +3,64 @@
 Cargo.lock
 **/*.rs.bk
 
-# Binaries and debug files
-*.exe
+# Build artifacts
+*.obj
+**/**.obj
 *.pdb
-*.dll
-*.so
-*.dylib
+*.ilk
+*.exp
+*.lib
+*.o
+*.a
+*.map
+*.iik
+**/**.iik
+
+# Executables
+*.exe
+src_cpp/**/*.exe
+src_rst/**/*.exe
+**/debug/*.exe
+**/release/*.exe
+
+# Debug and release files
+debug/
+release/
+build/
+dist/
 
 # IDE specific
 .idea/
 .vscode/
 *.swp
 *.swo
-
-# Debug files
-debug/
-release/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 
 # System specific
 .DS_Store
 thumbs.db
+desktop.ini
+~$*
+*.tmp
+*.temp
+
+# Private files and credentials
+*.env
+*.env.*
+config.private.*
+**/secrets.*
+*.key
+*.pem
+*.cert
+*.password
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
 
 # Jekyll build directories
 _site/
