@@ -11,23 +11,13 @@ title: Welcome to Rust Lessons
 {% endfor %}
 
 
----
+## Learn Rust by Doing
 
-## 🎯 What You'll Learn
-Gain a solid foundation and sharpen your Rust skills:
+Dive into real-world Rust code. Master fundamentals, control flow, and best practices by example.
 
-- 🚩 Rust fundamentals
-- 🛠️ Memory management and ownership
-- 📊 Working with data types, loops, and functions
-- ⚡ Advanced topics: concurrency and error handling
-- 💻 Real-world examples and best practices
-
----
 
 ## 🌟 Why Rust?
-Rust is fast, reliable, and loved by developers worldwide. It combines the performance of systems-level languages with the safety and modern features you’d expect. Whether you're building web servers, embedded systems, or CLI tools, Rust has got you covered.
+Rust is fast, reliable, and loved by developers worldwide.
 
----
-
-## 💡 Start Learning Now!
-Click on any lesson above to get started, or explore the site using the navigation links. Happy coding!
+## 💡 Start  Now!
+Click on any lesson above.
