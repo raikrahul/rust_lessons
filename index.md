@@ -13,7 +13,8 @@ title: Welcome to Rust Lessons
 
 ## Learn Rust by Doing
 
-Dive into real-world Rust code. Master fundamentals, control flow, and best practices by example.
+Learn rust by staring at code, comparing code, and writing code in some other language too. 
+Our goal should be to do something useful, not being lawyers about  ifs and traits. 
 
 
 ## 🌟 Why Rust?
