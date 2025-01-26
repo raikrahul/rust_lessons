@@ -1,0 +1,2 @@
+Hello World! This is a test file.
+The program will encrypt this text.
